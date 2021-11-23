@@ -1,0 +1,42 @@
+.texto_caraoke{
+    font-size: 18px;
+}
+.editable{
+    border-radius: 15px;
+}
+
+.editable_acordion{
+    border: 0px;
+    padding: 0px;
+    background-color: transparent;
+}
+
+.leerMas{
+    border: 0px;
+    padding: 0px;
+    color: rgb(72, 72, 226);
+    background-color: transparent;
+    text-align: center;
+}
+
+.container_combo{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.editable_combo{
+    max-width: 200px;
+}
+
+
+.editable_combo a h3{
+    padding: 10px;
+    margin: 10px;
+    color: rgb(36, 87, 255);
+}
+.editable_combo h1 img{
+    padding-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}

@@ -1,0 +1,30 @@
+.content_modtrarCarrito{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.row_modtrarCarrito{
+    align-items: center;
+    display: flex;
+}
+.text_modtrarCarrito{
+    height: 150px;
+}
+.product{
+    text-align: center;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.container_precio{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 77%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container_precio div {
+    padding: 15px;
+}
