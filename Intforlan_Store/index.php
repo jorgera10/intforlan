@@ -214,7 +214,7 @@ include "_global/conexion.php";
                   </li>
                   <li class="nav-item">
                     <div class="tm-nav-link-highlight"></div>
-                    <a class="nav-link" href="php/Farraoke.php">Farraoke</a>
+                    <a class="nav-link" href="php/farraoke.php">Farraoke</a>
                   </li>
 
                 </ul>
