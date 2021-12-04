@@ -48,15 +48,10 @@ $result_articles = $sentencia_articles->fetchAll();
 <div class="container col-12 col-xl-3 col-md-4 col-lg-3 col-xl-2  mb-5">
     <div class="card tm-bg-black-transparent contenedor">
 
-        <a href="../_archivos/informacion.php?id=<?php echo $producto['id'] ?>"><img alt="<?php echo $producto['nombre']; ?>" title="<?php echo $producto['nombre']; ?>" src="https://github.com/intforlan/IntforlanImages/blob/master/<?php echo $producto['nombre'] ?>_I1.jpg?raw=true" data-content=<?php echo $producto['descripcion']; ?>></h3></a>
+        <a href="../_archivos/informacionComputadoras.php?id=<?php echo $producto['id'] ?>"><img alt="<?php echo $producto['nombre']; ?>" title="<?php echo $producto['nombre']; ?>" src="https://github.com/intforlan/IntforlanImages/blob/master/<?php echo $producto['nombre'] ?>_I1.jpg?raw=true" data-content=<?php echo $producto['descripcion']; ?>></h3></a>
 
         <div class="accordion accordion-flush tm-bg-black-transparent" id="accordionFlushExample">
             <div class="accordion-item">
-                <h2 class="accordion-header" id="flush-headingOne">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                        Mas informacion
-                    </button>
-                </h2>
                 <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
                     <div class="accordion-body" style="color: black;">
                         <h6 style="font-size: 13px; text-align: justify;"><?php echo $producto['descripcion']; ?></h6>
@@ -66,7 +61,7 @@ $result_articles = $sentencia_articles->fetchAll();
         </div>
         <br>
 
-        <a href="../_archivos/informacionConmputadoras.php?id=<?php echo $producto['id'] ?>">
+        <a href="../_archivos/informacionComputadoras.php?id=<?php echo $producto['id'] ?>">
             <h3 style='color: #ffffff'><?php echo $producto['nombre']; ?></h3>
         </a>
 

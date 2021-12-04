@@ -7,29 +7,38 @@ include "../php/carrito.php";
 if (isset($_GET['id'])) {
     $id = $_GET['id'];
 
-    $query = "SELECT * FROM `monitores` WHERE id = $id";
+    $query = "SELECT * FROM `celularestablets` WHERE id = $id";
     $resultado = mysqli_query($conexion, $query);
 
     if (mysqli_num_rows($resultado) == 1) {
         $row = mysqli_fetch_array($resultado);
-        $codigoMON = $row['codigoMON'];       
-        $nombre  = $row['nombre'];
+        $nombre = $row['nombre']; 
         $marca  = $row['marca'];
         $categoria  = $row['categoria'];
         $subcategoria  = $row['subcategoria'];
         $subcategoria2  = $row['subcategoria2'];
-        $estado  = $row['Estado'];
-        $peso  = $row['Peso'];
-        $modelo  = $row['Modelo'];
-        $tamaño = $row['Tamaño'];
-        $resolucion = $row["Resolución"];
-        $entradas  = $row["Entradas/salidas"];
-        $color = $row["Color"];
-        $precio = $row["precio"];
-        $disponible = $row["Disponible"];
-        $imagen = $row["imagen"];
-
-        echo $nombre;
+        $Estado  = $row['Estado'];
+        $Peso  = $row['Peso'];
+        $Modelo  = $row['Modelo'];
+        $MemoriaRam  = $row['Memoria Ram'];
+        $Mmeoriainterna  = $row['Mmeoria interna'];
+        $Ranuramemoria  = $row['Ranura memoria'];
+        $Pantalla  = $row['Pantalla'];
+        $Resolucion = $row['Resolucion'];
+        $Camaraprincipal  = $row['Camara principal'];
+        $Camaraselfie  = $row['Camaraselfie'];
+        $Sistemaoperativo  = $row['Sistema operativo'];
+        $Chipset  = $row['Chipset'];
+        $Upc  = $row['Upc'];
+        $Bateria  = $row['Bateria'];
+        $Wlan  = $row['Wlan'];
+        $Bluetooth  = $row['Bluetooth'];
+        $Usb  = $row['Usb'];
+        $Sensores  = $row['Sensores'];
+        $Color  = $row['Color'];
+        $precio  = $row['precio'];
+        $Disponible  = $row['Disponible'];
+        $imagen = $row['imagen'];
     }
 }
 
@@ -51,7 +60,7 @@ if (isset($_GET['id'])) {
 </head>
 
 <?php
-$sentencia = $pdo->prepare("SELECT * FROM `monitores`");
+$sentencia = $pdo->prepare("SELECT * FROM `celularestablets`");
 
 $sentencia->execute();
 $listaProductos = $sentencia->fetchAll(PDO::FETCH_ASSOC);
@@ -59,8 +68,8 @@ $listaProductos = $sentencia->fetchAll(PDO::FETCH_ASSOC);
 ?>
 
 <body>
-    
-<div class="container my-auto">
+
+    <div class="container my-auto">
         <div class="row">
             <div class="column img col-12 col-sm-6 ">
                 <div id="carouselExampleInterval" class="img carousel slide" data-bs-ride="carousel">
@@ -91,13 +100,32 @@ $listaProductos = $sentencia->fetchAll(PDO::FETCH_ASSOC);
                 <div class="producto-texto">
                     <h1><?php echo $nombre ?></h1>
                     <h3><?php echo $marca . "    " . $precio . "$" ?> </h3>
-                <p class="caracteristica">Peso: </p><p><?php echo $peso ?></p><br><br>
-                <p class="caracteristica">Modelo: </p><p><?php echo $modelo ?></p><br><br>
-                <p class="caracteristica">Tamaño: </p><p><?php echo $tamaño ?></p><br><br>
-                <p class="caracteristica">Resolucion: </p><p><?php echo $resolucion ?></p><br><br>
-                <p class="caracteristica">Entradas: </p><p><?php echo $entradas ?></p><br><br>
-                <p class="caracteristica">Color: </p><p><?php echo $color ?></p><br><br>
-                
+
+                    <p class="caracteritica">MemoriaRam: </pc>
+                    <p><?php echo  $MemoriaRam?></p><br>
+                    <p class="caracteritica">Mmeoriainterna: </pc>
+                    <p><?php echo  $Mmeoriainterna?></p><br>
+                    <p class="caracteritica">Ranuramemoria: </pc>
+                    <p><?php echo  $Ranuramemoria?></p><br>
+                    <p class="caracteritica">Pantalla: </pc>
+                    <p><?php echo  $Pantalla?></p><br>
+                    <p class="caracteritica">Resolucion: </pc>
+                    <p><?php echo  $Resolucion?></p><br>
+                    <p class="caracteritica">Camaraprincipal: </pc>
+                    <p><?php echo  $Camaraprincipal?></p><br>
+                    <p class="caracteritica">Camaraselfie: </pc>
+                    <p><?php echo  $Camaraselfie?></p><br>
+                    <p class="caracteritica">Sistemaoperativo: </pc>
+                    <p><?php echo  $Sistemaoperativo?></p><br>
+                    
+                    <p class="caracteritica">Bateria: </pc>
+                    <p><?php echo  $Bateria?></p><br>
+                    
+                    <p class="caracteritica">Sensores: </pc>
+                    <p><?php echo  $Sensores?></p><br>
+                    <p class="caracteritica">Color: </pc>
+                    <p><?php echo  $Color?></p><br>
+<br><br>
 
                     <div class="containerBtn d-flex justify-content-evenly">
                         <a type="button" class="btn btn-outline-primary" href="javascript:history.back()">Volver</a>
@@ -136,6 +164,8 @@ $listaProductos = $sentencia->fetchAll(PDO::FETCH_ASSOC);
             </div>
         </div>
     </div>
+
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>

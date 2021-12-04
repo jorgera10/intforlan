@@ -7,12 +7,11 @@ include "../php/carrito.php";
 if (isset($_GET['id'])) {
     $id = $_GET['id'];
 
-    $query = "SELECT * FROM `monitores` WHERE id = $id";
+    $query = "SELECT * FROM `computadora` WHERE id = $id";
     $resultado = mysqli_query($conexion, $query);
 
     if (mysqli_num_rows($resultado) == 1) {
         $row = mysqli_fetch_array($resultado);
-        $codigoMON = $row['codigoMON'];       
         $nombre  = $row['nombre'];
         $marca  = $row['marca'];
         $categoria  = $row['categoria'];
@@ -21,15 +20,19 @@ if (isset($_GET['id'])) {
         $estado  = $row['Estado'];
         $peso  = $row['Peso'];
         $modelo  = $row['Modelo'];
-        $tamaño = $row['Tamaño'];
-        $resolucion = $row["Resolución"];
-        $entradas  = $row["Entradas/salidas"];
-        $color = $row["Color"];
-        $precio = $row["precio"];
-        $disponible = $row["Disponible"];
-        $imagen = $row["imagen"];
-
-        echo $nombre;
+        $procesador  = $row['Procesador'];
+        $memoria  = $row['Memoria'];
+        $ranurasMemoria  = $row['Ranuras memoria'];
+        $discoDuro = $row['Disco duro'];
+        $sistemaOperativo  = $row['Sistema operativo'];
+        $graficos  = $row['Graficos'];
+        $puertos  = $row['Puertos'];
+        $sonido  = $row['Sonido'];
+        $color  = $row['Color'];
+        $garantia  = $row['Garantia'];
+        $precio  = $row['precio'];
+        $disponible  = $row['Disponible'];
+        $imagen  = $row['imagen'];
     }
 }
 
@@ -51,7 +54,7 @@ if (isset($_GET['id'])) {
 </head>
 
 <?php
-$sentencia = $pdo->prepare("SELECT * FROM `monitores`");
+$sentencia = $pdo->prepare("SELECT * FROM `computadora`");
 
 $sentencia->execute();
 $listaProductos = $sentencia->fetchAll(PDO::FETCH_ASSOC);
@@ -59,10 +62,10 @@ $listaProductos = $sentencia->fetchAll(PDO::FETCH_ASSOC);
 ?>
 
 <body>
-    
-<div class="container my-auto">
+
+    <div class="container">
         <div class="row">
-            <div class="column img col-12 col-sm-6 ">
+            <div class="column img">
                 <div id="carouselExampleInterval" class="img carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active" data-bs-interval="3000">
@@ -91,13 +94,32 @@ $listaProductos = $sentencia->fetchAll(PDO::FETCH_ASSOC);
                 <div class="producto-texto">
                     <h1><?php echo $nombre ?></h1>
                     <h3><?php echo $marca . "    " . $precio . "$" ?> </h3>
-                <p class="caracteristica">Peso: </p><p><?php echo $peso ?></p><br><br>
-                <p class="caracteristica">Modelo: </p><p><?php echo $modelo ?></p><br><br>
-                <p class="caracteristica">Tamaño: </p><p><?php echo $tamaño ?></p><br><br>
-                <p class="caracteristica">Resolucion: </p><p><?php echo $resolucion ?></p><br><br>
-                <p class="caracteristica">Entradas: </p><p><?php echo $entradas ?></p><br><br>
-                <p class="caracteristica">Color: </p><p><?php echo $color ?></p><br><br>
-                
+
+                    <p class="caracteristica">Peso:</p>
+                    <p><?php echo $peso ?></p><br>
+                    <p class="caracteristica">Modelo:</p>
+                    <p><?php echo $modelo ?></p><br>
+                    <p class="caracteristica">Procesador:</p>
+                    <p><?php echo $procesador ?></p><br>
+                    <p class="caracteristica">Memoria:</p>
+                    <p><?php echo $memoria ?></p><br>
+                    <p class="caracteristica">Ranuras Memoria:</p>
+                    <p><?php echo $ranurasMemoria ?><br>
+                    <p class="caracteristica">Disco Duro:</p>
+                    <p><?php echo $discoDuro ?></><br>
+                    <p class="caracteristica">Sistema Operativo:</p>
+                    <p><?php echo $sistemaOperativo ?><br>
+                    <p class="caracteristica">Graficos:</p>
+                    <p><?php echo $graficos ?></p><br>
+                    <p class="caracteristica">Puertos:</p>
+                    <p><?php echo $puertos ?></p><br>
+                    <p class="caracteristica">Sonido:</p>
+                    <p><?php echo $sonido ?></p><br>
+                    <p class="caracteristica">Color:</p>
+                    <p><?php echo $color ?></p><br>
+                    <p class="caracteristica">Garantia:</p>
+                    <p><?php echo $garantia ?></p><br>
+                    <br>
 
                     <div class="containerBtn d-flex justify-content-evenly">
                         <a type="button" class="btn btn-outline-primary" href="javascript:history.back()">Volver</a>
@@ -136,6 +158,8 @@ $listaProductos = $sentencia->fetchAll(PDO::FETCH_ASSOC);
             </div>
         </div>
     </div>
+
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
