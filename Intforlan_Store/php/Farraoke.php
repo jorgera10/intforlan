@@ -1,26 +1,27 @@
 <?php
 include "_global/config.php";
 include "_global/conexion.php";
+include '../_templates/headerProducto.php'
 ?>
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-<meta charset="UTF-8" />
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Intforlan</title>
-    <link rel="stylesheet" href="../../bootstrap-5.1.1-dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" />
-    <link rel="stylesheet" href="../css/all.min.css" />
-    <link rel="stylesheet" href="../css/bootstrap.min.css" />
-    <link rel="stylesheet" href="../css/templatemo-style.css" />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/personalizado.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <link rel="stylesheet" href="../css/cards.css">
-    <link rel="icon" href="../img/Logo/Logos/LogoIntforlanBlanco.png" type="image/png">
+  <meta charset="UTF-8" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Intforlan</title>
+  <link rel="stylesheet" href="../../bootstrap-5.1.1-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" />
+  <link rel="stylesheet" href="../css/all.min.css" />
+  <link rel="stylesheet" href="../css/bootstrap.min.css" />
+  <link rel="stylesheet" href="../css/templatemo-style.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/personalizado.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <link rel="stylesheet" href="../css/cards.css">
+  <link rel="icon" href="../img/Logo/Logos/LogoIntforlanBlanco.png" type="image/png">
 
 
 </head>
@@ -35,16 +36,15 @@ https://templatemo.com/tm-534-parallo
       <!-- Services header -->
       <section class="row" id="tmServices">
         <div class="col-12">
-          <div class="parallax-window tm-services-parallax-header" data-parallax="scroll" data-z-index="101"
-            data-image-src="https://github.com/intforlan/IntforlanImages/blob/master/karaoke_v1.jpg?raw=true">
+          <div class="parallax-window tm-services-parallax-header" data-parallax="scroll" data-z-index="101" data-image-src="https://github.com/intforlan/IntforlanImages/blob/master/karaoke_v1.jpg?raw=true">
 
             <div class="tm-bg-black-transparent text-center tm-services-header">
               <h2 class="text-uppercase tm-services-page-title">KARAOKE - FARRAOKE.COM</h2>
               <p class="tm-services-description mb-0 medium">
                 Somos productores de programas de Karaoke Profesional para todos los bares del país por más de 20 años.<br>
-				Contamos con éxitos musicales tanto nacionales como internacionales, de todo genero.<br> Y realizamos actualizaciones periódicamente para que disfrutes de los éxitos del momento.<br>
-				Ahora puedes disfrutar del mismo sano entretenimeinto sin salir de casa, arma tus fiestas con Farraoke.com. <br> Te ayudamos a elegir la mejor opcion para tus eventos, sin instalaciones complicadas y con garantía de por vida de tu programa de Karaoke. <br>
-				  Prueba ahora nuestra version Free, creando una cuenta con tu email y contraseña en <a href="http://www.farraoke.com" target="_blank">www.farraoke.com</a> <br> o en tus dispositivos moviles descargando nuestra aplicacion de Google Play Store.<br>
+                Contamos con éxitos musicales tanto nacionales como internacionales, de todo genero.<br> Y realizamos actualizaciones periódicamente para que disfrutes de los éxitos del momento.<br>
+                Ahora puedes disfrutar del mismo sano entretenimeinto sin salir de casa, arma tus fiestas con Farraoke.com. <br> Te ayudamos a elegir la mejor opcion para tus eventos, sin instalaciones complicadas y con garantía de por vida de tu programa de Karaoke. <br>
+                Prueba ahora nuestra version Free, creando una cuenta con tu email y contraseña en <a href="http://www.farraoke.com" target="_blank">www.farraoke.com</a> <br> o en tus dispositivos moviles descargando nuestra aplicacion de Google Play Store.<br>
               </p>
             </div>
           </div>
@@ -101,8 +101,8 @@ https://templatemo.com/tm-534-parallo
                     <center>
                       <h2 class="tm-service-tab-title">&bull; KARAOKE USB PORTABLE &bull;</h2>
                     </center>
-					  
-				<!-- 	<center><div class="container-services-slides col-12 w-100">
+
+                    <!-- 	<center><div class="container-services-slides col-12 w-100">
 
                     <div id="carouselExampleIndicators mx-auto" class="carousel slide" data-ride="carousel">
                       <ol class="carousel-indicators">
@@ -133,32 +133,32 @@ https://templatemo.com/tm-534-parallo
                       </a>
                     </div> <!-- fin carousel
                   </div></center> -->
-					<h3>INCLUYE:</h3>
-					<p>* Flash memory con 9.600 temas clásicos y actuales de todo género musical.<br>
-					* Libro de canciones impreso anillado.<br>
-					* Actualizaciones y locales para garantía indefinida.<br>
-					* Puntaje al finalizar la interpretación.<br></p>
-					 <center><img src="https://github.com/intforlan/IntforlanImages/blob/master/Farraoke_Usb.jpg?raw=true" width="600" height="400" alt=""/></center><br>
-					  
-					<h3>CARACTERÍSTICAS:</h3>
+                    <h3>INCLUYE:</h3>
+                    <p>* Flash memory con 9.600 temas clásicos y actuales de todo género musical.<br>
+                      * Libro de canciones impreso anillado.<br>
+                      * Actualizaciones y locales para garantía indefinida.<br>
+                      * Puntaje al finalizar la interpretación.<br></p>
+                    <center><img src="https://github.com/intforlan/IntforlanImages/blob/master/Farraoke_Usb.jpg?raw=true" width="600" height="400" alt="" /></center><br>
+
+                    <h3>CARACTERÍSTICAS:</h3>
                     <p class="tm-service-tab-p">Buscador de temas por artista, género, nombre y número.
-					Gestiona la programación de temas sin límite.<br>
-					Opción para cantar acompañado de la voz original del cantante.<br>
-					Opción para mover el texto del karaoke por la pantalla.<br>
-					Administra automática del cambio de turnos.<br>
-					Califica al finalizar cada interpretación.<br>
-					Opciones de calificación: excelente, alta, media y baja.<br>
-					Icono para activar y desactivar puntaje.<br>
-					Funciones para reproducir, pasar, repetir, detener y pausar temas.<br>
-					Reproducción continua de videos de fondo en 4K.<br>
-					Opción para agregar videos de fondo en 4K.<br>
-					Reproductor de videos y audios.<br>
-					Opción para farrear con videos musicales de todo genero.<br>
-					Reproduce los videos originales del cantante.<br>
-					Opción para agregar videos originales de los temas.<br>
-					Indicador del curso de la canción.<br>
-					Despliegue de mensajes de cumpleaños, aniversarios, etc.<br>
-					Reporte de temas cantados.  
+                      Gestiona la programación de temas sin límite.<br>
+                      Opción para cantar acompañado de la voz original del cantante.<br>
+                      Opción para mover el texto del karaoke por la pantalla.<br>
+                      Administra automática del cambio de turnos.<br>
+                      Califica al finalizar cada interpretación.<br>
+                      Opciones de calificación: excelente, alta, media y baja.<br>
+                      Icono para activar y desactivar puntaje.<br>
+                      Funciones para reproducir, pasar, repetir, detener y pausar temas.<br>
+                      Reproducción continua de videos de fondo en 4K.<br>
+                      Opción para agregar videos de fondo en 4K.<br>
+                      Reproductor de videos y audios.<br>
+                      Opción para farrear con videos musicales de todo genero.<br>
+                      Reproduce los videos originales del cantante.<br>
+                      Opción para agregar videos originales de los temas.<br>
+                      Indicador del curso de la canción.<br>
+                      Despliegue de mensajes de cumpleaños, aniversarios, etc.<br>
+                      Reporte de temas cantados.
                     </p>
 
                   </div>
@@ -172,16 +172,16 @@ https://templatemo.com/tm-534-parallo
                     <center>
                       <h3 class="tm-service-tab-title">&bull; KARAOKE ONLINE &bull;</h3>
                     </center>
-					  <h3>CARACTERÍSTICAS:</h3>
+                    <h3>CARACTERÍSTICAS:</h3>
                     <p class="tm-service-tab-p">
-						Canta en tu dispositivo favorito en cualquier momento  y en cualquier parte del mundo con tu cuenta de Karaoke Online, controla todo desde tu telefono celular,  tu y tus invitados podran enviar sus canciones desde sus celulares,  disfruta sin interrupciones con tu cuenta premium en cualquier parte el mundo, con calificación al finalizar cada tema, el mejor repertorio nacional e internacional disponible para ti.
+                      Canta en tu dispositivo favorito en cualquier momento y en cualquier parte del mundo con tu cuenta de Karaoke Online, controla todo desde tu telefono celular, tu y tus invitados podran enviar sus canciones desde sus celulares, disfruta sin interrupciones con tu cuenta premium en cualquier parte el mundo, con calificación al finalizar cada tema, el mejor repertorio nacional e internacional disponible para ti.
                     </p>
-					
-					 <center><img src="https://github.com/intforlan/IntforlanImages/blob/master/FarraokeOnline.jpg?raw=true" width="600" height="600" alt=""/></center><br>
-					  
-					<h3>INCLUYE:</h3>
+
+                    <center><img src="https://github.com/intforlan/IntforlanImages/blob/master/FarraokeOnline.jpg?raw=true" width="600" height="600" alt="" /></center><br>
+
+                    <h3>INCLUYE:</h3>
                     <p class="mb-0">
-					Plan de 12 meses - Cuenta Premium de <a href="http://www.farraoke.com" target="_blank">Farraoke.com</a>
+                      Plan de 12 meses - Cuenta Premium de <a href="http://www.farraoke.com" target="_blank">Farraoke.com</a>
                     </p>
                   </div>
                   <!--  <div class="container-services-slides col-12">
@@ -222,39 +222,39 @@ https://templatemo.com/tm-534-parallo
                   <center>
                     <h3 class="tm-service-tab-title">&bull; KIT KARAOKE 1 &bull;</h3>
                   </center>
-				<h3>INCLUYE:</h3>
+                  <h3>INCLUYE:</h3>
                   <p class="mb-0">
-					- Karaoke en flash memory con 9.600 temas de todo genero musical.<br>
-					- Karaoke digital para: Celular, Tablet, Computador de toda marca, Tv box.<br>
-					- Libro impreso de canciones.<br>
-					- Micrófono con conexión Inalámbrica.<br>
-					- Receptor con pilas AA.<br>
-					- Cable de Micrófono (Canon a Plug)<br>
-					- Cable de audio.<br>
+                    - Karaoke en flash memory con 9.600 temas de todo genero musical.<br>
+                    - Karaoke digital para: Celular, Tablet, Computador de toda marca, Tv box.<br>
+                    - Libro impreso de canciones.<br>
+                    - Micrófono con conexión Inalámbrica.<br>
+                    - Receptor con pilas AA.<br>
+                    - Cable de Micrófono (Canon a Plug)<br>
+                    - Cable de audio.<br>
                   </p><br>
-					<center><img src="https://github.com/intforlan/IntforlanImages/blob/master/Kit%201.jpg?raw=true" width="600" height="400" alt=""/></center><br>
-				<h3>CARACTERÍSTICAS:</h3>
+                  <center><img src="https://github.com/intforlan/IntforlanImages/blob/master/Kit%201.jpg?raw=true" width="600" height="400" alt="" /></center><br>
+                  <h3>CARACTERÍSTICAS:</h3>
                   <p class="tm-service-tab-p">* Despliega la calificación al finalizar cada interpretación.<br>
-				* Opciones de calificación excelente, alta, media y baja.<br>
-				* Éxitos de todo género musical, pistas mp3 (no piano).<br>
-				* Fanfarria (aplausos).<br>
-				* Opción para activar o desactivar la voz del cantante.<br>
-				* Reproductor de videos musicales y audios.<br>
-				* Función para desplazar el texto por la pantalla.<br>
-				* Buscador de temas por artista, género, nombre y número.<br>
-				* Panel para programar temas sin limite.<br>
-				* Opción para repetir temas.<br>
-				* Icono para activar o desactivar puntaje.<br>
-				* Indicador del curso de la canción.<br>
-				* Permite pausar la canción a todo momento.<br>
-				* Reproducción de videos de fondo en 4K<br>
-				* Permite agregar videos de fondo en 4K<br>
-				* Reproducción del video de cada cantante<br>
-				* Despliega mensajes de cumpleaños, aniversarios, etc.<br>
-				* Reporte de temas cantados<br>
-				* Garantía Indefinida y Soporte Técnico.<br>
+                    * Opciones de calificación excelente, alta, media y baja.<br>
+                    * Éxitos de todo género musical, pistas mp3 (no piano).<br>
+                    * Fanfarria (aplausos).<br>
+                    * Opción para activar o desactivar la voz del cantante.<br>
+                    * Reproductor de videos musicales y audios.<br>
+                    * Función para desplazar el texto por la pantalla.<br>
+                    * Buscador de temas por artista, género, nombre y número.<br>
+                    * Panel para programar temas sin limite.<br>
+                    * Opción para repetir temas.<br>
+                    * Icono para activar o desactivar puntaje.<br>
+                    * Indicador del curso de la canción.<br>
+                    * Permite pausar la canción a todo momento.<br>
+                    * Reproducción de videos de fondo en 4K<br>
+                    * Permite agregar videos de fondo en 4K<br>
+                    * Reproducción del video de cada cantante<br>
+                    * Despliega mensajes de cumpleaños, aniversarios, etc.<br>
+                    * Reporte de temas cantados<br>
+                    * Garantía Indefinida y Soporte Técnico.<br>
                   </p>
-				  
+                  <a href="https://wa.link/rl7zpd" target="_blank">Comprar KIT 1</a>
                 </div>
               </div>
               <div id="tab4">
@@ -262,38 +262,39 @@ https://templatemo.com/tm-534-parallo
                   <center>
                     <h3 class="tm-service-tab-title">&bull; KIT KARAOKE 2 &bull;</h3>
                   </center>
-				 <h3>INCLUYE:</h3>
+                  <h3>INCLUYE:</h3>
                   <p class="mb-0">
-					* Flash memory con 9.600 temas clásicos y actuales de todo género musical.<br>
-					* Libro de canciones impreso anillado.<br>
-					* Actualizaciones y locales para garantía indefinida.<br>
-					* App para enviar temas desde tu teléfono celular.<br>
-					* Cuenta Premium para tu dispositivo favorito.<br>
-					* Puntaje al finalizar la interpretación.<br>
-					* 2 Micrófonos Inalámbricos profesional de 20 metros de alcance.<br>
+                    * Flash memory con 9.600 temas clásicos y actuales de todo género musical.<br>
+                    * Libro de canciones impreso anillado.<br>
+                    * Actualizaciones y locales para garantía indefinida.<br>
+                    * App para enviar temas desde tu teléfono celular.<br>
+                    * Cuenta Premium para tu dispositivo favorito.<br>
+                    * Puntaje al finalizar la interpretación.<br>
+                    * 2 Micrófonos Inalámbricos profesional de 20 metros de alcance.<br>
                   </p><br>
-					<center><img src="https://github.com/intforlan/IntforlanImages/blob/master/Kit%202.jpg?raw=true" width="600" height="400" alt=""/></center><br>
-					<h3>CARACTERÍSTICAS:</h3>
+                  <center><img src="https://github.com/intforlan/IntforlanImages/blob/master/Kit%202.jpg?raw=true" width="600" height="400" alt="" /></center><br>
+                  <h3>CARACTERÍSTICAS:</h3>
                   <p class="tm-service-tab-p">* Buscador de temas por artista, género, nombre y número.<br>
-					* Gestiona la programación de temas sin límite.<br>
-					* Opción para cantar acompañado de la voz original del cantante.<br>
-					* Opción para mover el texto del karaoke por la pantalla.<br>
-					* Administra automática del cambio de turnos.<br>
-					* Califica al finalizar cada interpretación.<br>
-					* Opciones de calificación: excelente, alta, media y baja.<br>
-					* Icono para activar y desactivar puntaje.<br>
-					* Funciones para reproducir, pasar, repetir, detener y pausar temas.<br>
-					* Reproducción continua de videos de fondo en 4K.<br>
-					* Opción para agregar videos de fondo en 4K.<br>
-					* Reproductor de videos y audios.<br>
-					* Opción para farrear con videos musicales de todo genero.<br>
-					* Reproduce los videos originales del cantante.<br>
-					* Opción para agregar videos originales de los temas.<br>
-					* Indicador del curso de la canción.<br>
-					* Despliegue de mensajes de cumpleaños, aniversarios, etc.<br>
-					* Reporte de temas cantados.<br>
+                    * Gestiona la programación de temas sin límite.<br>
+                    * Opción para cantar acompañado de la voz original del cantante.<br>
+                    * Opción para mover el texto del karaoke por la pantalla.<br>
+                    * Administra automática del cambio de turnos.<br>
+                    * Califica al finalizar cada interpretación.<br>
+                    * Opciones de calificación: excelente, alta, media y baja.<br>
+                    * Icono para activar y desactivar puntaje.<br>
+                    * Funciones para reproducir, pasar, repetir, detener y pausar temas.<br>
+                    * Reproducción continua de videos de fondo en 4K.<br>
+                    * Opción para agregar videos de fondo en 4K.<br>
+                    * Reproductor de videos y audios.<br>
+                    * Opción para farrear con videos musicales de todo genero.<br>
+                    * Reproduce los videos originales del cantante.<br>
+                    * Opción para agregar videos originales de los temas.<br>
+                    * Indicador del curso de la canción.<br>
+                    * Despliegue de mensajes de cumpleaños, aniversarios, etc.<br>
+                    * Reporte de temas cantados.<br>
                   </p>
-				  
+                  <a href="https://wa.link/rl7zpd" target="_blank">Comprar KIT 2</a>
+
                 </div>
               </div>
               <div id="tab5">
@@ -301,39 +302,41 @@ https://templatemo.com/tm-534-parallo
                   <center>
                     <h3 class="tm-service-tab-title">&bull; KIT KARAOKE 3 &bull;</h3>
                   </center>
-				 <h3>INCLUYE:</h3>
+                  <h3>INCLUYE:</h3>
                   <p class="mb-0">
-					* Flash memory con 9.600 temas clásicos y actuales de todo género musical.<br>
-					* Libro de canciones impreso anillado.<br>
-					* Actualizaciones y locales para garantía indefinida.<br>
-					* App para enviar temas desde tu teléfono celular.<br>
-					* Cuenta Premium para tu dispositivo favorito.<br>
-					* Puntaje al finalizar la interpretación.<br>
-					* Micrófono Inalámbrico incorporado de 20 metros de alcance.<br>
-					* Parlante Recargable de 8" Bluetooth, Radio y USB.<br>
-					  &nbsp;&nbsp;&nbsp;Con entradas para dos microfonos y cable auxiliar.
+                    * Flash memory con 9.600 temas clásicos y actuales de todo género musical.<br>
+                    * Libro de canciones impreso anillado.<br>
+                    * Actualizaciones y locales para garantía indefinida.<br>
+                    * App para enviar temas desde tu teléfono celular.<br>
+                    * Cuenta Premium para tu dispositivo favorito.<br>
+                    * Puntaje al finalizar la interpretación.<br>
+                    * Micrófono Inalámbrico incorporado de 20 metros de alcance.<br>
+                    * Parlante Recargable de 8" Bluetooth, Radio y USB.<br>
+                    &nbsp;&nbsp;&nbsp;Con entradas para dos microfonos y cable auxiliar.
                   </p><br>
-					<center><img src="https://github.com/intforlan/IntforlanImages/blob/master/Kit%203.jpg?raw=true" width="600" height="400" alt=""/></center><br>
-					<h3>CARACTERÍSTICAS:</h3>
+                  <center><img src="https://github.com/intforlan/IntforlanImages/blob/master/Kit%203.jpg?raw=true" width="600" height="400" alt="" /></center><br>
+                  <h3>CARACTERÍSTICAS:</h3>
                   <p class="tm-service-tab-p">* Buscador de temas por artista, género, nombre y número.<br>
-					* Gestiona la programación de temas sin límite.<br>
-					* Opción para cantar acompañado de la voz original del cantante.<br>
-					* Opción para mover el texto del karaoke por la pantalla.<br>
-					* Administra automática del cambio de turnos.<br>
-					* Califica al finalizar cada interpretación.<br>
-					* Opciones de calificación: excelente, alta, media y baja.<br>
-					* Icono para activar y desactivar puntaje.<br>
-					* Funciones para reproducir, pasar, repetir, detener y pausar temas.<br>
-					* Reproducción continua de videos de fondo en 4K.<br>
-					* Opción para agregar videos de fondo en 4K.<br>
-					* Reproductor de videos y audios.<br>
-					* Opción para farrear con videos musicales de todo genero.<br>
-					* Reproduce los videos originales del cantante.<br>
-					* Opción para agregar videos originales de los temas.<br>
-					* Indicador del curso de la canción.<br>
-					* Despliegue de mensajes de cumpleaños, aniversarios, etc.<br>
-					* Reporte de temas cantados.<br>
+                    * Gestiona la programación de temas sin límite.<br>
+                    * Opción para cantar acompañado de la voz original del cantante.<br>
+                    * Opción para mover el texto del karaoke por la pantalla.<br>
+                    * Administra automática del cambio de turnos.<br>
+                    * Califica al finalizar cada interpretación.<br>
+                    * Opciones de calificación: excelente, alta, media y baja.<br>
+                    * Icono para activar y desactivar puntaje.<br>
+                    * Funciones para reproducir, pasar, repetir, detener y pausar temas.<br>
+                    * Reproducción continua de videos de fondo en 4K.<br>
+                    * Opción para agregar videos de fondo en 4K.<br>
+                    * Reproductor de videos y audios.<br>
+                    * Opción para farrear con videos musicales de todo genero.<br>
+                    * Reproduce los videos originales del cantante.<br>
+                    * Opción para agregar videos originales de los temas.<br>
+                    * Indicador del curso de la canción.<br>
+                    * Despliegue de mensajes de cumpleaños, aniversarios, etc.<br>
+                    * Reporte de temas cantados.<br>
                   </p>
+                  <a href="https://wa.link/rl7zpd" target="_blank">Comprar KIT 3</a>
+
                 </div>
               </div>
               <div id="tab6">
@@ -341,39 +344,41 @@ https://templatemo.com/tm-534-parallo
                   <center>
                     <h3 class="tm-service-tab-title">&bull; KIT KARAOKE 4 &bull;</h3>
                   </center>
-				 <h3>INCLUYE:</h3>
+                  <h3>INCLUYE:</h3>
                   <p class="mb-0">
-					* Flash memory con 9.600 temas clásicos y actuales de todo género musical.<br>
-					* Libro de canciones impreso anillado.<br>
-					* Actualizaciones y locales para garantía indefinida.<br>
-					* App para enviar temas desde tu teléfono celular.<br>
-					* Cuenta Premium para tu dispositivo favorito.<br>
-					* Puntaje al finalizar la interpretación.<br>
-					<!--  * Micrófono Inalámbrico incorporado de 20 metros de alcance.<br>-->
-					* Caja Amplificada de 12" Bluetooth, Radio y USB.<br>
-					  &nbsp;&nbsp;&nbsp;Con entradas para dos microfonos y cable auxiliar.
+                    * Flash memory con 9.600 temas clásicos y actuales de todo género musical.<br>
+                    * Libro de canciones impreso anillado.<br>
+                    * Actualizaciones y locales para garantía indefinida.<br>
+                    * App para enviar temas desde tu teléfono celular.<br>
+                    * Cuenta Premium para tu dispositivo favorito.<br>
+                    * Puntaje al finalizar la interpretación.<br>
+                    <!--  * Micrófono Inalámbrico incorporado de 20 metros de alcance.<br>-->
+                    * Caja Amplificada de 12" Bluetooth, Radio y USB.<br>
+                    &nbsp;&nbsp;&nbsp;Con entradas para dos microfonos y cable auxiliar.
                   </p><br>
-					<center><img src="https://github.com/intforlan/IntforlanImages/blob/master/Kit%204.jpg?raw=true" width="600" height="400" alt=""/></center><br>
-					<h3>CARACTERÍSTICAS:</h3>
+                  <center><img src="https://github.com/intforlan/IntforlanImages/blob/master/Kit%204.jpg?raw=true" width="600" height="400" alt="" /></center><br>
+                  <h3>CARACTERÍSTICAS:</h3>
                   <p class="tm-service-tab-p">* Buscador de temas por artista, género, nombre y número.<br>
-					* Gestiona la programación de temas sin límite.<br>
-					* Opción para cantar acompañado de la voz original del cantante.<br>
-					* Opción para mover el texto del karaoke por la pantalla.<br>
-					* Administra automática del cambio de turnos.<br>
-					* Califica al finalizar cada interpretación.<br>
-					* Opciones de calificación: excelente, alta, media y baja.<br>
-					* Icono para activar y desactivar puntaje.<br>
-					* Funciones para reproducir, pasar, repetir, detener y pausar temas.<br>
-					* Reproducción continua de videos de fondo en 4K.<br>
-					* Opción para agregar videos de fondo en 4K.<br>
-					* Reproductor de videos y audios.<br>
-					* Opción para farrear con videos musicales de todo genero.<br>
-					* Reproduce los videos originales del cantante.<br>
-					* Opción para agregar videos originales de los temas.<br>
-					* Indicador del curso de la canción.<br>
-					* Despliegue de mensajes de cumpleaños, aniversarios, etc.<br>
-					* Reporte de temas cantados.<br>
+                    * Gestiona la programación de temas sin límite.<br>
+                    * Opción para cantar acompañado de la voz original del cantante.<br>
+                    * Opción para mover el texto del karaoke por la pantalla.<br>
+                    * Administra automática del cambio de turnos.<br>
+                    * Califica al finalizar cada interpretación.<br>
+                    * Opciones de calificación: excelente, alta, media y baja.<br>
+                    * Icono para activar y desactivar puntaje.<br>
+                    * Funciones para reproducir, pasar, repetir, detener y pausar temas.<br>
+                    * Reproducción continua de videos de fondo en 4K.<br>
+                    * Opción para agregar videos de fondo en 4K.<br>
+                    * Reproductor de videos y audios.<br>
+                    * Opción para farrear con videos musicales de todo genero.<br>
+                    * Reproduce los videos originales del cantante.<br>
+                    * Opción para agregar videos originales de los temas.<br>
+                    * Indicador del curso de la canción.<br>
+                    * Despliegue de mensajes de cumpleaños, aniversarios, etc.<br>
+                    * Reporte de temas cantados.<br>
                   </p>
+                  <a href="https://wa.link/rl7zpd" target="_blank">Comprar KIT 4</a>
+
                 </div>
               </div>
             </div>
@@ -385,8 +390,8 @@ https://templatemo.com/tm-534-parallo
       <!-- Page footer -->
       <footer class="row">
         <p class="col-12 text-white text-center tm-copyright-text">
-        Copyright &copy; 2021 Intforlan Official Website.
-        Designed by <a href="#" class="tm-copyright-link">Intforlan</a>
+          Copyright &copy; 2021 Intforlan Official Website.
+          Designed by <a href="#" class="tm-copyright-link">Intforlan</a>
         </p>
       </footer>
     </div>
@@ -397,10 +402,10 @@ https://templatemo.com/tm-534-parallo
   <script src="../js/parallax.min.js"></script>
   <script src="../js/bootstrap.min.js"></script>
   <script>
-    $(function () {
+    $(function() {
       $('.tabgroup > div').hide();
       $('.tabgroup > div:first-of-type').show();
-      $('.tabs a').click(function (e) {
+      $('.tabs a').click(function(e) {
         e.preventDefault();
         var $this = $(this),
           tabgroup = '#' + $this.parents('.tabs').data('tabgroup'),
@@ -419,7 +424,6 @@ https://templatemo.com/tm-534-parallo
         }
       })
     });
-
   </script>
 </body>
 

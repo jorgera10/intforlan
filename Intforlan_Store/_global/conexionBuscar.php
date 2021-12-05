@@ -6,7 +6,7 @@ $conexion = mysqli_connect( //crea la conexion
     'localhost',
     'admin',
     'admin',
-    'inforlan'
+    'intforlan'
 );
 
 

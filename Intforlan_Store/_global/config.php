@@ -5,6 +5,6 @@
     define("SERVIDOR", "localhost");
     define("USUARIO", "admin");
     define("PASSWORD", "admin");
-    define("BD", "inforlan");
+    define("BD", "intforlan");
 
 ?>
