@@ -254,7 +254,7 @@ https://templatemo.com/tm-534-parallo
                     * Reporte de temas cantados<br>
                     * Garantía Indefinida y Soporte Técnico.<br>
                   </p>
-                  <a href="https://wa.link/rl7zpd" target="_blank">Comprar KIT 1</a>
+                  <a href="https://wa.link/rl7zpd" class="btn btn-outline-primary" target="_blank">Comprar KIT 1</a>
                 </div>
               </div>
               <div id="tab4">
@@ -293,7 +293,7 @@ https://templatemo.com/tm-534-parallo
                     * Despliegue de mensajes de cumpleaños, aniversarios, etc.<br>
                     * Reporte de temas cantados.<br>
                   </p>
-                  <a href="https://wa.link/rl7zpd" target="_blank">Comprar KIT 2</a>
+                  <a href="https://wa.link/rl7zpd"  class="btn btn-outline-primary" target="_blank">Comprar KIT 2</a>
 
                 </div>
               </div>
@@ -335,7 +335,7 @@ https://templatemo.com/tm-534-parallo
                     * Despliegue de mensajes de cumpleaños, aniversarios, etc.<br>
                     * Reporte de temas cantados.<br>
                   </p>
-                  <a href="https://wa.link/rl7zpd" target="_blank">Comprar KIT 3</a>
+                  <a href="https://wa.link/rl7zpd" class="btn btn-outline-primary" target="_blank">Comprar KIT 3</a>
 
                 </div>
               </div>
@@ -377,7 +377,7 @@ https://templatemo.com/tm-534-parallo
                     * Despliegue de mensajes de cumpleaños, aniversarios, etc.<br>
                     * Reporte de temas cantados.<br>
                   </p>
-                  <a href="https://wa.link/rl7zpd" target="_blank">Comprar KIT 4</a>
+                  <a href="https://wa.link/rl7zpd" class="btn btn-outline-primary" target="_blank">Comprar KIT 4</a>
 
                 </div>
               </div>

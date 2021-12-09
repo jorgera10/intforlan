@@ -247,7 +247,7 @@ include "_global/conexion.php";
             <p class="tm-about-description">
               ¿Necesitas una computadora?Aquí en Intforlan encontraras las mejores computadoras del mercado a un precio increible, ¡Que esperas para llevarte la tuya!
             </p>
-            <a href="#tmFeatures" class="btn btn-tertiary tm-btn-app-feature">Más productos</a>
+            <a href="php/computadoras.php" class="btn btn-tertiary tm-btn-app-feature">Más productos</a>
           </div>
         </div>
 
@@ -259,7 +259,7 @@ include "_global/conexion.php";
             <p class="tm-about-description">
               Todo lo que necesitas al alcance de tus manos, la mejor tecnologia en celulares inteligentes ideales para recibir clases o convertirte en un gamer profecional
             </p>
-            <a href="#tmFeatures" class="btn btn-tertiary tm-btn-app-feature">Más productos</a>
+            <a href="php/celulares.php" class="btn btn-tertiary tm-btn-app-feature">Más productos</a>
           </div>
         </div>
 
@@ -271,7 +271,7 @@ include "_global/conexion.php";
             <p class="tm-about-description">
               Has pensado en convertirte en un artista de youtube? Pues Intforlan ayudara a convertir ese sueño en realidad con los mejores instrumentos musicales
             </p>
-            <a href="#tmFeatures" class="btn btn-tertiary tm-btn-app-feature">Más productos</a>
+            <a href="php/instrumentos.php" class="btn btn-tertiary tm-btn-app-feature">Más productos</a>
           </div>
         </div>
 
@@ -283,7 +283,31 @@ include "_global/conexion.php";
             <p class="tm-about-description">
               Disponesmos desde soporte para TV hasta un gran pedestal para piano, en Intforlan contamos con los mejores del país a precios incomparables
             </p>
-            <a href="#tmFeatures" class="btn btn-tertiary tm-btn-app-feature">Más productos</a>
+            <a href="php/pedestales.php" class="btn btn-tertiary tm-btn-app-feature">Más productos</a>
+          </div>
+        </div>
+        
+        
+        <div class="col-lg-4">
+          <div class="tm-bg-black-transparent tm-about-box">
+            <div class="tm-about-number-container"><i class="fas fa-desktop"></i></div>
+            <h3 class="tm-about-name">Monitores</h3>
+            <p class="tm-about-description">
+              Te traemos las mejores modelos en Monitores LED FULL HD para que puedas disfrutar de tus vídeos, películas y juegos en alta definición...
+            </p>
+            <a href="php/monitores.php" class="btn btn-tertiary tm-btn-app-feature">Más productos</a>
+          </div>
+        </div>
+        
+        
+        <div class="col-lg-4">
+          <div class="tm-bg-black-transparent tm-about-box">
+            <div class="tm-about-number-container"><i class="fas fa-microphone"></i></div>
+            <h3 class="tm-about-name">Farraoke</h3>
+            <p class="tm-about-description">
+            Disfruta del mejor repertorio de los bares del país, repertorio Nacional e Internacional, con garantía indefinida y licencia 100% Original
+            </p>
+            <a href="php/Farraoke.php" class="btn btn-tertiary tm-btn-app-feature">Más productos</a>
           </div>
         </div>
       </section>
