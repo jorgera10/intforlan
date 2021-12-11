@@ -36,7 +36,7 @@ https://templatemo.com/tm-534-parallo
       <!-- Services header -->
       <section class="row" id="tmServices">
         <div class="col-12">
-          <div class="parallax-window tm-services-parallax-header" data-parallax="scroll" data-z-index="101" data-image-src="https://github.com/intforlan/IntforlanImages/blob/master/karaoke_v1.jpg?raw=true">
+          <div class="parallax-window tm-services-parallax-header" data-parallax="scroll" data-z-index="101" <!--data-image-src="https://github.com/intforlan/IntforlanImages/blob/master/karaoke_v1.jpg?raw=true"-->>
 
             <div class="tm-bg-black-transparent text-center tm-services-header">
               <h2 class="text-uppercase tm-services-page-title">KARAOKE - FARRAOKE.COM</h2>
@@ -160,7 +160,7 @@ https://templatemo.com/tm-534-parallo
                       Despliegue de mensajes de cumpleaños, aniversarios, etc.<br>
                       Reporte de temas cantados.
                     </p>
-
+						<a href="https://wa.link/rl7zpd" class="btn btn-outline-primary" target="_blank">Comprar Karaoke</a>
                   </div>
                 </div>
 
@@ -181,8 +181,9 @@ https://templatemo.com/tm-534-parallo
 
                     <h3>INCLUYE:</h3>
                     <p class="mb-0">
-                      Plan de 12 meses - Cuenta Premium de <a href="http://www.farraoke.com" target="_blank">Farraoke.com</a>
-                    </p>
+                      Plan de 12 meses - Cuenta Premium de <a href="http://www.farraoke.com" target="_blank">Farraoke.com</a> 
+                    </p> <br>
+					  <centr><a href="https://wa.link/rl7zpd" class="btn btn-outline-primary" target="_blank">Comprar Plan Premium</a></centr>
                   </div>
                   <!--  <div class="container-services-slides col-12">
                     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
