@@ -7,7 +7,7 @@ include "../php/carrito.php";
 if (isset($_GET['id'])) {
     $id = $_GET['id'];
 
-    $query = "SELECT * FROM `instrumentos` WHERE id = $id";
+    $query = "SELECT * FROM `guitarras` WHERE id = $id";
     $resultado = mysqli_query($conexion, $query);
 
     if (mysqli_num_rows($resultado) == 1) {
@@ -51,7 +51,7 @@ if (isset($_GET['id'])) {
 </head>
 
 <?php
-$sentencia = $pdo->prepare("SELECT * FROM `instrumentos`");
+$sentencia = $pdo->prepare("SELECT * FROM `guitarras`");
 
 $sentencia->execute();
 $listaProductos = $sentencia->fetchAll(PDO::FETCH_ASSOC);
@@ -91,31 +91,29 @@ $listaProductos = $sentencia->fetchAll(PDO::FETCH_ASSOC);
                 <div class="producto-texto">
                     <h1><?php echo $nombre ?></h1>
                     <h3><?php echo $marca . "    " . $precio . "$" ?> </h3>
-
-                    <p class="caracteristica">Peso:</p>
-                    <p><?php echo $peso ?></p><br>
-                    <p class="caracteristica">Modelo:</p>
-                    <p><?php echo $modelo ?></p><br>
-                    <p class="caracteristica">Procesador:</p>
-                    <p><?php echo $procesador ?></p><br>
-                    <p class="caracteristica">Memoria:</p>
-                    <p><?php echo $memoria ?></p><br>
-                    <p class="caracteristica">Ranuras Memoria:</p>
-                    <p><?php echo $ranurasMemoria ?><br>
-                    <p class="caracteristica">Disco Duro:</p>
-                    <p><?php echo $discoDuro ?></><br>
-                    <p class="caracteristica">Sistema Operativo:</p>
-                    <p><?php echo $sistemaOperativo ?><br>
-                    <p class="caracteristica">Graficos:</p>
-                    <p><?php echo $graficos ?></p><br>
-                    <p class="caracteristica">Puertos:</p>
-                    <p><?php echo $puertos ?></p><br>
-                    <p class="caracteristica">Sonido:</p>
-                    <p><?php echo $sonido ?></p><br>
+                    <br><br>
+                    <p class="caracteristica">Estado:</p>
+                    <p><?php echo $estado ?></p><br>
+                    <p class="caracteristica">Tamaño:</p>
+                    <p><?php echo $tamaño ?></p><br>
+                    <p class="caracteristica">Cuerdas:</p>
+                    <p><?php echo $cuerdas ?></p><br>
+                    <p class="caracteristica">madera:</p>
+                    <p><?php echo $madera ?></p><br>
+                    <p class="caracteristica">Tilo:</p>
+                    <p><?php echo $tilo ?><br>
+                    <p class="caracteristica">Diapason:</p>
+                    <p><?php echo $diapason ?></><br>
+                    <p class="caracteristica">Pintura:</p>
+                    <p><?php echo $pintura ?><br>
                     <p class="caracteristica">Color:</p>
                     <p><?php echo $color ?></p><br>
-                    <p class="caracteristica">Garantia:</p>
-                    <p><?php echo $garantia ?></p><br>
+                    <p class="caracteristica">Incluye:</p>
+                    <p><?php echo $incluye ?></p><br>
+                    <p class="caracteristica">Disponible:</p>
+                    <p><?php echo $disponible ?></p><br>
+
+                    <br>
                     <br>
 
                     <div class="containerBtn d-flex justify-content-evenly">
