@@ -17,7 +17,7 @@ if (isset($_GET['id'])) {
         $categoria  = $row['categoria'];
         $subcategoria  = $row['subcategoria'];
         $estado  = $row['estado'];
-        $tamaño  = $row['tamaño'];
+        $pulgadas  = $row['pulgadas'];
         $cuerdas  = $row['cuerdas'];
         $madera  = $row['madera'];
         $tilo  = $row['tilo'];
